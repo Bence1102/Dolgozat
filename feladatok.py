@@ -45,22 +45,7 @@ def fel4():
         if szoveg!="@":
             print(szoveg)
 
-def fel5():
 
-    
-    jatek=[]
-    i:int =0
-    while (i<3):
-        erem:int=int(random.random()*2+1)
-        if (erem==1):
-            jatek.append("Kő")
-        elif (erem==2):
-            jatek.append("Paprír")
-        i+=1
-        else (erem==3):
-        jatek.append("Paprír")
-        i+=1
-    return jatek
 
 
 
